@@ -1,0 +1,151 @@
+{
+    "Title": "Cat Burglar: Mansion Heist",
+    "Credits": "Created by Naitik Podddar(npoddar@ucsc.edu).",
+    "InitialLocation": "Mantion Entrance",
+    "Locations": {
+        "Mantion Entrance": {
+            "Body": "You stand outside the large, imposing gates of the mansion, your heart pounding with excitement. You're nervous. The mansion looms before you, its grandeur both intimidating and enticing. You know that inside lies the elusive artifact, rumored to be worth a fortune.",
+            "Choices": [
+                {
+                    "Text": "Approach the Front Gate",
+                    "Target": "Front Gate"
+                },
+                {
+                    "Text": "Attempt a Stealthy Entrance Through the Back Window",
+                    "Target": "Window Entry"
+                },
+                {
+                    "Text": "Give Up and Leave",
+                    "Target": "Find Rope"
+                }
+            ]
+        },
+        "Main Hall": {
+            "Body": "You are back in the Main Hall of the mansion. Choose where to go next.",
+            "Choices": [
+                {
+                    "Text": "Library",
+                    "Target": "Library"
+                },
+                {
+                    "Text": "Small Unassuming Room",
+                    "Target": "Security Room"
+                },
+                {
+                    "Text": "Art Gallery",
+                    "Target": "Art Gallery"
+                }
+            ]   
+        },
+        "Front Gate": {
+            "Body": "You stride confidently towards the front gate, ready to face whatever challenges await you within the mansion. The gate is... open? That's odd. But hey, good for you right? You step inside the mansion grounds, feeling a rush of adrenaline as you prepare to begin your heist. You stand in the Main Hall of the mansion, it's not nearly as heavily guarded as you expected. Where will you go next?",
+            "Choices": [
+                {
+                    "Text": "Library",
+                    "Target": "Library"
+                },
+                {
+                    "Text": "Small Unassuming Room",
+                    "Target": "Security Room"
+                },
+                {
+                    "Text": "Art Gallery",
+                    "Target": "Art Gallery"
+                }
+            ]
+        },
+        "Window Entry": {
+            "Body": "With a false sense of boldness, you attempt to climb and squeeze through the window, completely forgetting the necessity of a rope. As you cling desperately to the windowsill, reality hits you like a ton of bricks. 'Oops,' you mutter to yourself, as gravity takes hold and sends you plummeting to the ground below. Maybe next time, remember to bring the rope, eh? The game is over.",
+            "Choices": [
+                {
+                    "Text": "Try Again",
+                    "Target": "Mantion Entrance"
+                }
+            ]
+        },
+        "Find Rope": {
+            "Body": "Did you really consider giving up? The game barely started... Sigh. Well guess what? You might be the worst burglar in the history of burglars, but in making the worst choice you found the rope you needed to climb through the window. So, congratulations, I guess? You can now proceed to the window entry without falling down and breaking your neck. Good job.",
+            "Choices": [
+                {
+                    "Text": "Take the Rope and proceed to the window entry",
+                    "Target": "Window Entry with Rope"
+                }
+            ]
+        },
+        "Window Entry with Rope": {
+            "Body": "With the sturdy rope in hand, you carefully secure it to a nearby fixture before expertly climbing up to the window. Your \"preparation\" pays off as you land inside the mansion silently. Nicely done! You feel like a true cat burglar. Where will you go next?",
+            "Choices": [
+                {
+                    "Text": "Library",
+                    "Target": "Library"
+                },
+                {
+                    "Text": "Small Unassuming Room",
+                    "Target": "Security Room"
+                },
+                {
+                    "Text": "Art Gallery",
+                    "Target": "Art Gallery"
+                }
+            ]
+        },
+        "Art Gallery": {
+            "Body": "As you step into the art gallery, you are immediately surrounded by walls that are adorned with masterpieces from renowned artists. In the center of the gallery stands the pièce de résistance, a captivating artifact encased in a glass display. You can't help but feel drawn to it. What will you do?",
+            "Choices": [
+                {
+                    "Text": "Attempt to Steal the Artifact",
+                    "Target": "Steal Fake Artifact"
+                },
+                {
+                    "Text": "Examine the Other Artwork",
+                    "Target": "Clue"
+                }
+            ]
+        },
+        "Steal Fake Artifact": {
+            "Body": "You carefully approach the artifact, your heart pounding with excitement. You reach out to grab it, but as soon as your fingers touch the glass, an alarm blares throughout the mansion. You realize too late that the artifact was a fake, a decoy meant to trap unskilled thieves like you. You've been caught! The game is over.",
+            "Choices": [
+                {
+                    "Text": "Try Again",
+                    "Target": "Mantion Entrance"
+                }
+            ]
+        },
+        "Clue": {
+            "Body": "As you examine the other artwork in the gallery, you notice a small modest painting in the corner of the gallery, overshadowed by the grandeur of its neighbors. It portrays a simple countryside scene, with rolling hills stretching into the distance under a vast expanse of sky. The colors are muted, evoking a sense of quiet solitude. Among the details, a small, weathered windmill stands tall amidst a sea of golden wheat, its weather-beaten blades barely turning in the breeze. At the top of the windmill, lies an old clock, both its arrows pointing straight up. What will you do next?",
+            "Choices": [
+                {
+                    "Text": "Go to the Library",
+                    "Target": "Library"
+                },
+                {
+                    "Text": "Check out the small unassuming room",
+                    "Target": "Security Room"
+                }
+            ]
+        },
+        "Security Room": {
+            "Body": "",
+            "Choices": []
+        },
+        "Security Room Unlocked": {
+            "Body": "The door swings open. The walls are lined with monitors displaying various rooms of the mansion. You realize this is the security room, where the mansion's security system is controlled. In the center of the room lies a small thumb drive labeled 'Access Code'. What will you go next?",
+            "Choices": [
+                {
+                    "Text": "Go to the Library",
+                    "Target": "Library"
+                }
+            ]
+        },
+        "Library": {
+            "Body": "",
+            "Choices": [
+            ]
+        },
+        "LibraryUnlocked": {
+            "Body": "",
+            "Choices": [
+            ]
+        }
+    }
+}
